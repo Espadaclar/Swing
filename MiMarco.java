@@ -2,6 +2,7 @@
 import java.awt.Frame;
 import javax.swing.JFrame;
 import javax.swing.*;
+import java.awt.Toolkit;
 /**
  * @version 17 / 06 / 2017)
  */
@@ -20,5 +21,6 @@ public class MiMarco extends JFrame
         //setExtendedState(Frame.MAXIMIZED_BOTH);
         
     }
+    
     
 }

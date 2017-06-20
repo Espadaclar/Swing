@@ -31,7 +31,8 @@ public class CreandoMarcoCentral extends JFrame
         setTitle("Marco centrado");
         
         //PARA CAMBIAR EL ICONO DE JAVA QUE APARECE EN LA ESQUINA IZQUIERDA.
-        //actuamos sobre 'miPantalla' por tener todos los datos de la pantalla.
+        //actuamos sobre 'miPantalla' por tener todos los datos de la pantalla. En la clase Toolkit el mt getImage("icono2.gif")
+        //nos devuelve un objeto de tipo Image, que es el icono que queremos poner.
         //1º conseguimos el icono y se almacena en un objeto Image
         Image miIcono = miPantalla.getImage("icono2.gif");
         //Le decimos que establezca este icono.

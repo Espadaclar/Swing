@@ -10,7 +10,7 @@ public class MarcoConDibujo extends JFrame
      */
     public MarcoConDibujo()
     {
-        setBounds(50, 50, 899, 500);
+        setBounds(50, 100, 899, 700);
         setTitle("Prueba de dibujo");
         setVisible(true);
         

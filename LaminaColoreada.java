@@ -42,6 +42,40 @@ public class LaminaColoreada extends JPanel{
         //  ------- aplica al objeto g2 el relleno con el color espablecido.
         g2.fill(elipse);
         //g2.draw(elipse); 
+        
+        // ------ MODIFICANDO TIPO DE LETRA EN EL FRAME
+        // ----Invocamos a clase Font, y utilizamos sus mt.
+        Font fuente = new Font("Arial",Font.ITALIC, 22);
+        g2.setFont(fuente);
+        g2.drawString("Hola qué hay, cómo estamos", 520,200);
+        g2.setColor(Color.WHITE);
+        // --------- PARA ESCRIBIR MAS LINEAS
+        Font fuente2 = new Font("Arial",Font.BOLD, 22);
+        g2.setFont(fuente);
+        g2.drawString("Curso de Java ", 520,240);
+        g2.setColor(Color.WHITE);
+        
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
